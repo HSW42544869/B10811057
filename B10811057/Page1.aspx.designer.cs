@@ -11,7 +11,7 @@ namespace B10811057
 {
 
 
-    public partial class Default
+    public partial class Page1
     {
 
         /// <summary>
