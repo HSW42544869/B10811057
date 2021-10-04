@@ -2,27 +2,104 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
+    <style type="text/css">
+
+        #wrapper{
+            width: 1000px;
+            margin:auto;
+            background-color:aqua;
+                }
+        #header{
+            height:72px;
+            background-color:aquamarine;
+               }
+        #sliderview{
+            height:258px;
+            background-color:chartreuse;
+                   }
+        #menu {
+            height: 18px;
+            background-color: darkgray;
+              }
+        #content{
+                background-color:burlywood;
+                }
+            #footer{
+                background-color:brown;
+                padding:10px;
+                   }
+            .slideshow{
+                    margin:auto;
+                      }
+            .body{
+                background-color:gray;
+                 }
+         </style>
 </head>
-<body>
+<body  class="body">
     <form id="form1" runat="server">
-        <div>
-            <asp:Image ID="Image1" runat="server" Height="128px" ImageUrl="https://www.uch.edu.tw/uploads/ad_image/file/61121877141b9b084c000003/banner20210810-01.png" style="margin-left: 4px" Width="1233px" />
-            
-            <dr />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            
-            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Default.aspx">首頁</asp:HyperLink>
-            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Page1.aspx">第一頁</asp:HyperLink>
-            
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            
-            </asp:ContentPlaceHolder>
+        <div id="wrapper"> 
+          <div id="header">
+              <asp:Image ID="Image1" runat="server" ImageAlign="Left" ImageUrl="~/Resources/t1.png" />
+              <asp:Image ID="Image2" runat="server" ImageAlign="Right" ImageUrl="~/Resources/t2.png" />
+            </div>
+          <div id="sliderview" class="slideshow">sliderview</div>
+          <div id="menu">menu</div>
+          <div id="content">
+              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+              </asp:ContentPlaceHolder>
+            </div>
+          <div id="footer">footer</div>
         </div>
     </form>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+</ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Resources/1.png" alt="1" width="1000" height="258">
+    </div>
+    <div class="carousel-item">
+      <img src="Resources/2.png" alt="2" width="1000" height="258">
+    </div>
+  </div>
+    <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
 </body>
 </html>
