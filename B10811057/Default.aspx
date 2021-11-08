@@ -2,7 +2,5 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <br />
-    <br />
-    <asp:Label ID="Label1" runat="server" style="text-align: center" Text="Label"></asp:Label>
+    <asp:Image ID="Image4" runat="server" ImageUrl="~/Resources/p1.png" Width="1000px" />
 </asp:Content>

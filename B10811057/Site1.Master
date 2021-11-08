@@ -113,37 +113,60 @@
                   </a>
              </div>             
                     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-<!-- Brand -->
-<a class="navbar-brand" href="https://www.uch.edu.tw/sip.html">Logo<asp:Image ID="Image3" runat="server" ImageUrl="~/Resources/uch.png" Width="40px" /></a>
-<!-- Links -->
-<ul class="navbar-nav">
-<li class="nav-item">
-<a class="nav-link" href="#">Link 1</a>
-</li>
-<li class="nav-item">
-<a class="nav-link" href="#">Link 2</a>
-</li>
-<!-- Dropdown -->
-<li class="nav-item dropdown">
-<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-Dropdown link
-</a>
-<div class="dropdown-menu">
-<a class="dropdown-item" href="#">Link 1</a>
-<a class="dropdown-item" href="#">Link 2</a>
-<a class="dropdown-item" href="#">Link 3</a>
-</div>
-</li>
-</ul>
-</nav>
-<br>
-              
-                <div id="content">
-                      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                      </asp:ContentPlaceHolder>
+                <!-- Brand -->
+                <a class="navbar-brand" href="https://www.uch.edu.tw/sip.html"><asp:Image ID="Image3" runat="server" ImageUrl="~/Resources/uch.png" Width="40px" /></a>
+
+                                        <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                C#
+                </a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="1-1-textExchange">交換文字</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
                 </div>
-              <div id="footer">footer</div>
-</div>  
-</form>
-</body>
-</html>
+                </li>
+
+
+                <!-- Links -->
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="default.aspx">首頁</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Dropdown link
+                </a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+                </li>
+                </ul>
+                </nav>
+                <br>
+              
+                                <div id="content">
+                                      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                      </asp:ContentPlaceHolder>
+                                </div>
+                              <div id="footer">
+                                  <asp:Label ID="Label1" runat="server" Text="Label">
+                健行科技大學 Chien Hsin University, No.229, Jianxing Rd., 
+                Zhongli Dist., Taoyuan City 32097, Taiwan(R.O.C.)<br>
+                桃園市中壢區健行路229號 電話：03-4581196<br>
+                健行科技大學 資訊管理系 行政大樓 4 樓 A422 室 分機
+                7301<br>
+                建議使用 1024*768 解析度已達本站最佳瀏覽效果<br>
+                意見反映信箱：im@uch.edu.tw<br>
+                </asp:Label>
+                </div>  
+                </form>
+                </body>
+                </html>
