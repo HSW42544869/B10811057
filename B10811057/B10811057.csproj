@@ -68,10 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="1-1-textExchange.aspx" />
+    <Content Include="1-2-PicExchange.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Page1.aspx" />
     <None Include="Resources\p1.png" />
+    <None Include="Resources\mouse.gif" />
+    <None Include="Resources\pig.jpg" />
     <Content Include="WebForm1.aspx" />
     <None Include="Resources\t1.png" />
     <None Include="Resources\t2.png" />
@@ -88,6 +91,13 @@
     </Compile>
     <Compile Include="1-1-textExchange.aspx.designer.cs">
       <DependentUpon>1-1-textExchange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1-2-PicExchange.aspx.cs">
+      <DependentUpon>1-2-PicExchange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-2-PicExchange.aspx.designer.cs">
+      <DependentUpon>1-2-PicExchange.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

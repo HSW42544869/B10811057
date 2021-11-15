@@ -14,7 +14,7 @@
     <asp:TextBox ID="TextBox1" runat="server">胡紹威B10811057</asp:TextBox>
 </p>
 <p class="text-center">
-    <asp:Button ID="Button1" runat="server" Text="交換文字" />
+    <asp:Button ID="Button1" runat="server" Text="交換文字" OnClick="Button1_Click" />
 </p>
 </asp:Content>
 

@@ -116,27 +116,28 @@
                 <!-- Brand -->
                 <a class="navbar-brand" href="https://www.uch.edu.tw/sip.html"><asp:Image ID="Image3" runat="server" ImageUrl="~/Resources/uch.png" Width="40px" /></a>
 
-                                        <!-- Dropdown -->
+                <!-- Links --><ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="default.aspx">首頁</a>
+                </li>
+
+
+                    <!-- Dropdown -->
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                 C#
                 </a>
                 <div class="dropdown-menu">
-                <a class="dropdown-item" href="1-1-textExchange">交換文字</a>
-                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="1-1-textExchange.aspx">交換文字</a>
+                <a class="dropdown-item" href="1-2-PicExchange.aspx">圖片交換</a>
                 <a class="dropdown-item" href="#">Link 3</a>
                 </div>
                 </li>
 
-
-                <!-- Links -->
-                <ul class="navbar-nav">
-                <li class="nav-item">
-                <a class="nav-link" href="default.aspx">首頁</a>
-                </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">Link 2</a>
                 </li>
+
                 <!-- Dropdown -->
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">

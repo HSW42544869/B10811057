@@ -13,5 +13,13 @@ namespace B10811057
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string temp;
+            temp = Label2.Text;
+            Label2.Text = TextBox1.Text;
+            TextBox1.Text = temp;
+        }
     }
 }
