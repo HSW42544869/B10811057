@@ -130,7 +130,7 @@
                 <div class="dropdown-menu">
                 <a class="dropdown-item" href="1-1-textExchange.aspx">交換文字</a>
                 <a class="dropdown-item" href="1-2-PicExchange.aspx">圖片交換</a>
-                <a class="dropdown-item" href="#">Link 3</a>
+                <a class="dropdown-item" href="1-3-BMI.aspx">計算BMI</a>
                 </div>
                 </li>
 
@@ -155,6 +155,21 @@
               
                                 <div id="content">
                                       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                          <div style="text-align: center">
+                                              <br />
+                                              <asp:Label ID="Label2" runat="server" Text="身高:"></asp:Label>
+                                              <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                                              <br />
+                                              <asp:Label ID="Label3" runat="server" Text="體重:"></asp:Label>
+                                              <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                                              <br />
+                                              <br />
+                                              <asp:Button ID="Button1" runat="server" Font-Size="X-Large" OnClick="Button1_Click" Text="胡紹威的BMI計算" />
+                                              <br />
+                                              <br />
+                                              <asp:TextBox ID="TextBox3" runat="server" Width="300px"></asp:TextBox>
+                                              <br />
+                                          </div>
                                       </asp:ContentPlaceHolder>
                                 </div>
                               <div id="footer">
