@@ -11,7 +11,14 @@ namespace B10811057
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Double height = Convert.ToDouble(TextBox1.Text);
+            Double weight = Convert.ToDouble(TextBox2.Text);
+            TextBox3.Text = "BMI:" + (weight / (height * height / 10000));
         }
     }
 }
