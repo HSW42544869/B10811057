@@ -142,7 +142,17 @@
                 <div class="dropdown-menu">
                 <a class="dropdown-item" href="2-1-Students.aspx">學生資料</a>
                 <a class="dropdown-item" href="2-2-TextBox.aspx">TextBox查詢</a>
-                <a class="dropdown-item" href="1-3-BMI.aspx">計算BMI</a>
+                <a class="dropdown-item" href="2-3-DropDownList.aspx">下拉選單查詢</a>
+                </div>
+                </li>
+
+                    <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown">嵌入內容</a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="3-1-YouTube.aspx">影片</a>
+                <a class="dropdown-item" href="2-2-TextBox.aspx">TextBox查詢</a>
+                <a class="dropdown-item" href="2-3-DropDownList.aspx">下拉選單查詢</a>
                 </div>
                 </li>
 
