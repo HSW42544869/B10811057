@@ -44,6 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -74,6 +75,9 @@
     <Content Include="2-2-TextBox.aspx" />
     <Content Include="2-3-DropDownList.aspx" />
     <Content Include="3-1-YouTube.aspx" />
+    <Content Include="3-2-GoogleMap.aspx" />
+    <Content Include="3-3-3Dpicture.aspx" />
+    <Content Include="4-1-2D.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Page1.aspx" />
@@ -138,6 +142,27 @@
     </Compile>
     <Compile Include="3-1-YouTube.aspx.designer.cs">
       <DependentUpon>3-1-YouTube.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="3-2-GoogleMap.aspx.cs">
+      <DependentUpon>3-2-GoogleMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="3-2-GoogleMap.aspx.designer.cs">
+      <DependentUpon>3-2-GoogleMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="3-3-3Dpicture.aspx.cs">
+      <DependentUpon>3-3-3Dpicture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="3-3-3Dpicture.aspx.designer.cs">
+      <DependentUpon>3-3-3Dpicture.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="4-1-2D.aspx.cs">
+      <DependentUpon>4-1-2D.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="4-1-2D.aspx.designer.cs">
+      <DependentUpon>4-1-2D.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

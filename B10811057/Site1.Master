@@ -151,8 +151,18 @@
                 <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown">嵌入內容</a>
                 <div class="dropdown-menu">
                 <a class="dropdown-item" href="3-1-YouTube.aspx">影片</a>
-                <a class="dropdown-item" href="2-2-TextBox.aspx">TextBox查詢</a>
-                <a class="dropdown-item" href="2-3-DropDownList.aspx">下拉選單查詢</a>
+                <a class="dropdown-item" href="3-2-GoogleMap.aspx">地圖</a>
+                <a class="dropdown-item" href="3-3-3Dpicture.aspx">3D圖片</a>
+                </div>
+                </li>
+
+                        <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown">圖表資料</a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="4-1-2D.aspx">2D直方圖</a>
+                <a class="dropdown-item" href="3-2-GoogleMap.aspx">地圖</a>
+                <a class="dropdown-item" href="3-3-3Dpicture.aspx">3D圖片</a>
                 </div>
                 </li>
 
