@@ -78,6 +78,7 @@
     <Content Include="3-2-GoogleMap.aspx" />
     <Content Include="3-3-3Dpicture.aspx" />
     <Content Include="4-1-2D.aspx" />
+    <Content Include="4-2-3Distogram.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Page1.aspx" />
@@ -163,6 +164,13 @@
     </Compile>
     <Compile Include="4-1-2D.aspx.designer.cs">
       <DependentUpon>4-1-2D.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="4-2-3Distogram.aspx.cs">
+      <DependentUpon>4-2-3Distogram.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="4-2-3Distogram.aspx.designer.cs">
+      <DependentUpon>4-2-3Distogram.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
